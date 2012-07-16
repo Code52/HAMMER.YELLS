@@ -1,0 +1,7 @@
+permalink: /:title.html
+auto: true
+markdown: rdiscount
+title: YourAppName
+accent: 0074fd
+accentLight: 53a1fe
+appId : 123456
