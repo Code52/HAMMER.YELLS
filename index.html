@@ -7,15 +7,16 @@
 	<head>
 		<title>{{ site.title }}</title>
 		<link rel="shortcut icon" href="img/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div id="container">
+			<h1>{{ site.title }}</h1>
 			<div id="tablet">
-				<img src="/img/tablet.png" />
+				<img id="screenshot" src="/img/tablet.png" />
 			</div>
 			<div id="content">
-				<h1>{{ site.title }}</h1>
 				<div id="description">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat sagittis libero et gravida. Nunc eu adipiscing massa. Sed tincidunt mollis nunc sit amet egestas. Ut urna diam, lacinia quis consequat ac, rutrum ultricies felis. Mauris et est massa, sit amet egestas lorem. Vestibulum fermentum, lectus sit amet dapibus euismod, ligula diam interdum diam, eget pretium mi enim a leo. Cras eu nisi eu justo hendrerit ultricies eget id ante.
 				</div>
@@ -36,7 +37,42 @@
 			</div>
 
 			<div id="clear">&nbsp</div>
-			
+
+			<div class="feature">
+				<div class="feature-third">
+					<h3>a feature</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id neque sem.
+				</div>
+				<div class="feature-third">
+					<h3>b feature</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id neque sem.
+				</div>
+				<div class="feature-third">
+					<h3>c feature</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id neque sem.
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="feature">
+				<div class="feature-image right"><img src="/img/feature_screenshot_1.png" /></div>
+				<div class="feature-text left">
+					<h3>d feature</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id neque sem, ut scelerisque ipsum. Donec feugiat erat vel ante molestie eu varius nisl aliquet. Duis semper, erat quis vehicula posuere, dolor orci sodales nisi, in congue dolor urna sed sem. Aliquam at dolor nisl. Maecenas ornare rhoncus eros vitae fermentum. Fusce ut nibh ante, in iaculis erat. Donec tempor molestie odio, sit amet gravida turpis imperdiet ac. Nunc tempor ullamcorper ante, sit amet auctor tellus tempus a. Phasellus id risus id lacus aliquet accumsan. Quisque a sem turpis, eget varius nisl. Suspendisse non sem nibh, eget elementum felis. Nunc vitae risus id urna feugiat tincidunt. Maecenas non lacus risus. Nulla facilisi.</div>
+
+				<div class="clear"></div>
+			</div>
+
+			<div class="feature">
+				<div class="feature-image left"><img src="/img/feature_screenshot_1.png" /></div>
+				<div class="feature-text right">
+					<h3>e feature</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id neque sem, ut scelerisque ipsum. Donec feugiat erat vel ante molestie eu varius nisl aliquet. Duis semper, erat quis vehicula posuere, dolor orci sodales nisi, in congue dolor urna sed sem. Aliquam at dolor nisl. Maecenas ornare rhoncus eros vitae fermentum. Fusce ut nibh ante, in iaculis erat. Donec tempor molestie odio, sit amet gravida turpis imperdiet ac. Nunc tempor ullamcorper ante, sit amet auctor tellus tempus a. Phasellus id risus id lacus aliquet accumsan. Quisque a sem turpis, eget varius nisl. Suspendisse non sem nibh, eget elementum felis. Nunc vitae risus id urna feugiat tincidunt. Maecenas non lacus risus. Nulla facilisi.</div>
+
+				<div class="clear"></div>
+			</div>
+
 		</div>
+	
 	</body>
 </html>
